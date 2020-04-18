@@ -36,6 +36,14 @@ urllib3==1.25.8
 xlrd==1.2.0
 ```
 
+#### Install Numpy ####
+
+```bash
+//Didn't have nympy install so install it
+python -m pip install --user numpy 
+```
+
+
 ### Usage in a virtual environment:
 
 ```bash
