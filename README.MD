@@ -14,6 +14,28 @@ If you want just one or two specific books, get the excel file from the folowing
 
 It took about 4 hours to complete the 409 english books (14 GB, both PDF and epub) on my machine.
 
+### Before Running ###
+
+Make sure you have the following dependencies
+
+```bash
+certifi==2020.4.5.1
+chardet==3.0.4
+et-xmlfile==1.0.1
+idna==2.9
+jdcal==1.4.1
+numpy==1.18.2
+openpyxl==3.0.3
+pandas==1.0.3
+python-dateutil==2.8.1
+pytz==2019.3
+requests==2.23.0
+six==1.14.0
+tqdm==4.45.0
+urllib3==1.25.8
+xlrd==1.2.0
+```
+
 ### Usage in a virtual environment:
 
 ```bash
@@ -26,6 +48,12 @@ python3 main.py
 ### Virtual environment on Windows:
 
 ```
+//install virtual environment first
+pip install virtualenv
+
+//navigate to pip directory 
+virtualenv venv -p C:\Python27\python.exe
+
 python -m venv .venv
 cd .venv/Scripts
 activate.bat
